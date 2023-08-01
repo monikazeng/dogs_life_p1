@@ -1,11 +1,15 @@
-// import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import HeroDetail from './components/HeroDetail';
+import AllHeroes from './components/AllHeroes';
+// import logo from './logo.svg';
+// import HeroDetail from './components/HeroDetail';
+
 
 function App() {
   return (
 
-    <HeroDetail/>
+      <AllHeroes/>
+    // <HeroDetail/>
 
     // <div className="App">
     //   <header className="App-header">
